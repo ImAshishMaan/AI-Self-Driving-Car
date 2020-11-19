@@ -1,5 +1,5 @@
 # AI Self-Driving Car
-
+Build a Deep Q-Learning model to drive a Self-Driving Car. As inputs it took the information from the three sensors and its current orientation. As outputs it decided the Q-values for each of the actions of going straight, turning left or turning right. As for the rewards, we punished it badly for hitting the sand, punished it slightly for going in the wrong direction and rewarded it slightly for going in the right direction. We made the AI implementation in PyTorch and used Kivy for the graphics.
 # The Environment
 The environment is compltely build using kivy webapp.Kivy is a free and open source Python framework, used for the development of applications like games, or any kind of mobile app. Check out the website here: https://kivy.org/#home 
 <br>
