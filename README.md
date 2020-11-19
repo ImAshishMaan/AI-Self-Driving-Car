@@ -22,8 +22,8 @@ White rectangle with three coloured dots in front of it. Well, that’s the car.
 We train our car to go from the upper left corner of the map, to the bottom right corner, we build road between these two spots which will be avoided by our car.
 <br>
 <p float="left">
-<img src="https://user-images.githubusercontent.com/56478257/99616996-56f56e80-2a44-11eb-9f7e-5f7e86ef9075.jpg" width="400" height="400" />
-<img src="https://user-images.githubusercontent.com/56478257/99617196-cec39900-2a44-11eb-8d1a-8dfa1351f919.jpg" width="400" height="400" />
+<img src="https://user-images.githubusercontent.com/56478257/99616996-56f56e80-2a44-11eb-9f7e-5f7e86ef9075.jpg" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/56478257/99617196-cec39900-2a44-11eb-8d1a-8dfa1351f919.jpg" width="500" height="500" />
 </p>
 <br>
 Now we can clearly formulate a goal, to train the self-driving car to make round trips between the Airport and Downtown. As soon as it reaches the airport, it will then have to go to Downtown, and as soon as it reaches Downtown, it will then have to go to the Airport. More than that, it should be able to make these round trips along any road connecting these two locations. It should also be able to cope with any obstacles along that road it has to avoid.
