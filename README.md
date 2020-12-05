@@ -3,7 +3,7 @@ Build a Deep Q-Learning model to drive a Self-Driving Car. As inputs it took the
 # The Environment
 The environment is compltely build using kivy webapp.Kivy is a free and open source Python framework, used for the development of applications like games, or any kind of mobile app. Check out the website here: https://kivy.org/#home 
 <br>
-<img src="https://user-images.githubusercontent.com/56478257/99615963-64115e00-2a42-11eb-861c-7fff5b743392.jpg" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/56478257/101236144-a7332880-36f4-11eb-994e-45a31ef33d36.JPG" width="500" height="500" />
 <br>
 This black screen, which is the Kivy user interface, inside which you can build your games or apps.
 White rectangle with three coloured dots in front of it. Well, that’s the car. The white rectangle represent our car and 3 little dots are the sensor of the car. On this map we will have the option to build roads, delimited by sand, which the car will have to avoid going through. So these 3 sensor detect sand in the map.
@@ -22,8 +22,8 @@ White rectangle with three coloured dots in front of it. Well, that’s the car.
 We train our car to go from the upper left corner of the map, to the bottom right corner, we build road between these two spots which will be avoided by our car.
 <br>
 <p float="left">
-<img src="https://user-images.githubusercontent.com/56478257/99616996-56f56e80-2a44-11eb-9f7e-5f7e86ef9075.jpg" width="350" height="350" />
-<img src="https://user-images.githubusercontent.com/56478257/99617196-cec39900-2a44-11eb-8d1a-8dfa1351f919.jpg" width="350" height="350" />
+<img src="https://user-images.githubusercontent.com/56478257/101236152-c03bd980-36f4-11eb-9e4d-646c8240cd27.JPG" width="350" height="350" />
+<img src="https://user-images.githubusercontent.com/56478257/101236153-c336ca00-36f4-11eb-9955-ff7db8e28541.JPG" width="350" height="350" />
 </p>
 <br>
 Now we can clearly formulate a goal, to train the self-driving car to make round trips between the Airport and Downtown. As soon as it reaches the airport, it will then have to go to Downtown, and as soon as it reaches Downtown, it will then have to go to the Airport. More than that, it should be able to make these round trips along any road connecting these two locations. It should also be able to cope with any obstacles along that road it has to avoid.
